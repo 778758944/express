@@ -1,0 +1,26 @@
+<ul>
+	{{#each tours}}
+	<li>
+		{{name}}--{{price}}
+		{{#if ../currency}}
+			({{../../currency.abbrev}})
+		{{/if}}
+	</li>
+	{{/each}}
+</ul>
+{{#unless currencies}}{{!除非不存在}}
+    <p>All prices in {{currency.name}}</p>
+{{/unless}}
+
+{{#if specialsUrl}}
+    <p>Checkout our <a href="{{specailsUrl}}">special</a>
+{{else}}
+    <p>please checkout often for specials</p>
+{{/if}}
+<p>
+    {{#each currencies}}
+        <a href="#" class="currency">{{.}}</a>
+    {{else}}
+        unfortunately,we currently only accept {{currency.name}}
+    {{/each}}
+</p>

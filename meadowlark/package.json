@@ -1,0 +1,20 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xwt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "express3-handlebars": "^0.5.2",
+    "formidable": "^1.0.17",
+    "nodemailer": "^1.8.0"
+  }
+}
