@@ -10,11 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
+    "connect": "^2.30.2",
     "cookie-parser": "^1.4.0",
     "express": "^4.13.3",
+    "express-logger": "0.0.3",
     "express-session": "^1.11.3",
     "express3-handlebars": "^0.5.2",
     "formidable": "^1.0.17",
-    "nodemailer": "^1.8.0"
+    "mongoose": "^4.2.2",
+    "morgan": "^1.6.1",
+    "nodemailer": "^1.8.0",
+    "session-mongoose": "^0.5.2",
+    "vhost": "^3.0.2"
   }
 }
